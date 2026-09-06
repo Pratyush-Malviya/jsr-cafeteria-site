@@ -393,18 +393,29 @@
   /* ---------- SECTION LABELS ---------- */
   .section-head{
     text-align:center;
-    max-width:560px;
+    max-width:620px;
     margin:0 auto 40px;
-    opacity:0; transform:translateY(18px);
-    transition:opacity 0.7s ease, transform 0.7s ease;
+    opacity:1;
+    transform:none;
+    color:var(--ink);
   }
-  .section-head.in-view{opacity:1; transform:translateY(0);}
+  .section-head.in-view{opacity:1; transform:none;}
   .section-head .kicker{
     font-size:12px; letter-spacing:0.14em; text-transform:uppercase;
-    color:var(--sage-deep); font-weight:600; margin-bottom:10px;
+    color:var(--brown); font-weight:700; margin-bottom:10px;
   }
-  .section-head h2{font-size:clamp(28px,3.4vw,36px);}
-  .section-head p{color:var(--ink-soft); margin-top:10px; font-size:15px;}
+  .section-head h2{
+    font-size:clamp(28px,3.4vw,38px);
+    color:var(--ink);
+    line-height:1.2;
+  }
+  .section-head p{
+    color:var(--ink);
+    margin-top:10px;
+    font-size:15.5px;
+    line-height:1.6;
+    font-weight:500;
+  }
 
   /* ---------- MENU NAV ---------- */
   .menu-section{padding:70px 0 30px; position:relative; z-index:1;}
@@ -903,12 +914,28 @@
     .wrap{padding:0 16px;}
     .hero{padding:30px 16px 36px;}
     .hero h1{font-size:32px; max-width:100%;}
-    .hero p.lede{font-size:15px;}
+    .hero p.lede{font-size:15px; color:var(--ink);}
     .hero-actions{width:100%;}
     .hero-actions .btn-primary, .hero-actions .btn-ghost{
       width:100%;
       text-align:center;
       padding:13px 20px;
+    }
+    .section-head{
+      padding:0 4px;
+      margin-bottom:32px;
+    }
+    .section-head h2{
+      font-size:28px;
+      color:#2A2D22; /* High-contrast deep dark ink */
+    }
+    .section-head p{
+      font-size:15px;
+      color:#3C4130;
+      font-weight:500;
+    }
+    .section-head .kicker{
+      color:#545A40;
     }
     .hero-badges{gap:12px 18px;}
     .hero-badges .b{font-size:11px;}
@@ -948,6 +975,14 @@
     .section-head, .cat-block, .item-card{opacity:1 !important; transform:none !important;}
   }
 /* ---------- CONTACT PAGE ---------- */
+.contact-main{
+  padding:56px 24px 20px;
+}
+@media (max-width:580px){
+  .contact-main{
+    padding:32px 16px 20px;
+  }
+}
 .contact-grid{
   display:grid;
   grid-template-columns:1fr 1fr;
