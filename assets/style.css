@@ -978,9 +978,28 @@
 .contact-main{
   padding:56px 24px 20px;
 }
+.contact-main .section-head .kicker{
+  color: #3C4130 !important;
+  font-weight: 700;
+}
+.contact-main .section-head h2{
+  color: #3C4130 !important;
+}
+.contact-main .section-head p{
+  color: #3C4130 !important;
+}
 @media (max-width:580px){
   .contact-main{
     padding:32px 16px 20px;
+  }
+  .contact-main .section-head .kicker{
+    color: #3C4130 !important;
+  }
+  .contact-main .section-head h2{
+    color: #3C4130 !important;
+  }
+  .contact-main .section-head p{
+    color: #3C4130 !important;
   }
 }
 .contact-grid{
