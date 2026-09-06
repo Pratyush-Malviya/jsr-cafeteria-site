@@ -338,6 +338,31 @@
   .btn-ghost:hover{border-color:var(--ink); transform:translateY(-2px);}
   .btn-ghost:active{transform:translateY(0) scale(0.97);}
 
+  .btn-telegram{
+    background:#2AABEE;
+    color:#fff !important;
+    border:none;
+    padding:14px 24px;
+    border-radius:30px;
+    font-family:'Work Sans',sans-serif;
+    font-weight:600;
+    font-size:15px;
+    cursor:pointer;
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    text-decoration:none;
+    box-shadow:0 4px 14px rgba(42,171,238,0.28);
+    transition:background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .btn-telegram:hover{
+    background:#229ED9;
+    transform:translateY(-2px);
+    box-shadow:0 8px 20px rgba(42,171,238,0.38);
+  }
+  .btn-telegram:active{transform:translateY(0) scale(0.97);}
+  .btn-telegram svg{width:18px; height:18px; fill:currentColor;}
+
   .hero-badges{
     display:flex; gap:22px; margin-top:38px; flex-wrap:wrap;
     opacity:0;
@@ -921,9 +946,10 @@
     .hero h1{font-size:32px; max-width:100%;}
     .hero p.lede{font-size:15px; color:var(--ink);}
     .hero-actions{width:100%;}
-    .hero-actions .btn-primary, .hero-actions .btn-ghost{
+    .hero-actions .btn-primary, .hero-actions .btn-ghost, .hero-actions .btn-telegram{
       width:100%;
       text-align:center;
+      justify-content:center;
       padding:13px 20px;
     }
     .section-head{
@@ -1053,6 +1079,22 @@
 .whatsapp-cta:hover{background:var(--brown-deep); transform:translateY(-2px);}
 .whatsapp-cta svg{width:20px; height:20px;}
 
+.telegram-cta{
+  display:flex; align-items:center; justify-content:center; gap:10px;
+  background:#2AABEE; color:#fff !important;
+  padding:16px 22px; border-radius:16px;
+  font-family:'Work Sans',sans-serif; font-weight:700; font-size:15.5px;
+  text-decoration:none;
+  box-shadow:0 4px 14px rgba(42,171,238,0.25);
+  transition:background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+.telegram-cta:hover{
+  background:#229ED9;
+  transform:translateY(-2px);
+  box-shadow:0 8px 20px rgba(42,171,238,0.38);
+}
+.telegram-cta svg{width:20px; height:20px; fill:currentColor;}
+
 .placeholder-note{
   font-size:12.5px; color:var(--ink-soft); font-style:italic;
   margin-top:10px;
@@ -1060,6 +1102,10 @@
 
 @media (max-width:700px){
   .contact-grid{grid-template-columns:1fr;}
+  .whatsapp-cta, .telegram-cta{
+    width:100%;
+    max-width:340px;
+  }
 }
 
 /* ---------- HOME PAGE EXTRAS ---------- */
