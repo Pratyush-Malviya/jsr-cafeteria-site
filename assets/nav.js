@@ -10,12 +10,55 @@
   window.addEventListener('scroll', onScroll, {passive:true});
   onScroll();
 
-  // ---- mobile nav toggle ----
+  // ---- mobile nav toggle & backdrop ----
   const toggle = document.getElementById('navToggle');
   const nav = document.getElementById('mainNav');
+  
+  // Create mobile backdrop if not present
+  let navBackdrop = document.querySelector('.nav-backdrop');
+  if(!navBackdrop){
+    navBackdrop = document.createElement('div');
+    navBackdrop.className = 'nav-backdrop';
+    document.body.appendChild(navBackdrop);
+  }
+
+  function closeNav(){
+    if(!nav) return;
+    nav.classList.remove('open');
+    if(toggle){
+      toggle.classList.remove('active');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+    if(navBackdrop) navBackdrop.classList.remove('show');
+    document.body.classList.remove('nav-locked');
+  }
+
+  function openNav(){
+    if(!nav) return;
+    nav.classList.add('open');
+    if(toggle){
+      toggle.classList.add('active');
+      toggle.setAttribute('aria-expanded', 'true');
+    }
+    if(navBackdrop) navBackdrop.classList.add('show');
+    document.body.classList.add('nav-locked');
+  }
+
   if(toggle && nav){
-    toggle.onclick = () => nav.classList.toggle('open');
-    nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => nav.classList.remove('open')));
+    toggle.setAttribute('aria-expanded', 'false');
+    toggle.onclick = (e) => {
+      e.stopPropagation();
+      if(nav.classList.contains('open')){
+        closeNav();
+      } else {
+        openNav();
+      }
+    };
+    nav.querySelectorAll('a').forEach(a => a.addEventListener('click', closeNav));
+    navBackdrop.addEventListener('click', closeNav);
+    document.addEventListener('keydown', (e) => {
+      if(e.key === 'Escape' && nav.classList.contains('open')) closeNav();
+    });
   }
 
   // ---- footer year ----
