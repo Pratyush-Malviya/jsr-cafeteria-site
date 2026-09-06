@@ -2,44 +2,44 @@
 const MENU = [
   {
     id:"hot", label:"Beverages", flyerLabel:"Beverages \u2013 Hot",
-    photo:"https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=900&q=75&auto=format&fit=crop",
+    photo:"https://images.pexels.com/photos/27517094/pexels-photo-27517094.jpeg?auto=compress&cs=tinysrgb&w=900",
     icon:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 8h14v6a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V8z"/><path d="M17 9h1.5a2.5 2.5 0 0 1 0 5H17"/><path d="M7 2c0 1-1 1-1 2s1 1 1 2M11 2c0 1-1 1-1 2s1 1 1 2"/></svg>',
     items:[
-      {no:1, name:"Chai", price:15, photo:"https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=500&q=75&auto=format&fit=crop"},
-      {no:2, name:"Hot Milk Coffee", price:25, photo:"https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=500&q=75&auto=format&fit=crop"},
-      {no:3, name:"Black Coffee with Honey", price:20, photo:"https://images.unsplash.com/photo-1517256064527-09c73fc73e38?w=500&q=75&auto=format&fit=crop"},
+      {no:1, name:"Chai", price:15, photo:"https://images.pexels.com/photos/27517094/pexels-photo-27517094.jpeg?auto=compress&cs=tinysrgb&w=600"},
+      {no:2, name:"Hot Milk Coffee", price:25, photo:"https://images.pexels.com/photos/36268519/pexels-photo-36268519.jpeg?auto=compress&cs=tinysrgb&w=600"},
+      {no:3, name:"Black Coffee with Honey", price:20, photo:"https://images.pexels.com/photos/15023080/pexels-photo-15023080.jpeg?auto=compress&cs=tinysrgb&w=600"},
     ]
   },
   {
     id:"combos", label:"Combos", flyerLabel:"Combos",
-    photo:"https://images.unsplash.com/photo-1509440159596-0249088772ff?w=900&q=75&auto=format&fit=crop",
+    photo:"https://plus.unsplash.com/premium_photo-1723618876357-800af70bb0ca?q=80&w=900&auto=format&fit=crop",
     icon:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 10a8 5 0 0 1 16 0z"/><path d="M3 10h18"/><path d="M4 13h16"/><path d="M5 13c0 3 3 5 7 5s7-2 7-5"/></svg>',
     items:[
-      {no:4, name:"Small Bun Makkhan + Chai", price:45, note:"Bun makkhan served with regular chai", photo:"https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500&q=75&auto=format&fit=crop"},
-      {no:5, name:"Big Bun Makkhan + Chai", price:65, note:"Bun makkhan served with regular chai", photo:"https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=500&q=75&auto=format&fit=crop"},
+      {no:4, name:"Small Bun Makkhan + Chai", price:45, note:"Bun makkhan served with regular chai", photo:"https://plus.unsplash.com/premium_photo-1723618876357-800af70bb0ca?q=80&w=600&auto=format&fit=crop"},
+      {no:5, name:"Big Bun Makkhan + Chai", price:65, note:"Bun makkhan served with regular chai", photo:"https://plus.unsplash.com/premium_photo-1723618876357-800af70bb0ca?q=80&w=600&auto=format&fit=crop"},
     ]
   },
   {
     id:"snacks", label:"South Indian Snacks", flyerLabel:"South Indian \u2013 Snacks",
-    photo:"https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=900&q=75&auto=format&fit=crop",
+    photo:"https://images.pexels.com/photos/36854501/pexels-photo-36854501.jpeg?auto=compress&cs=tinysrgb&w=900",
     icon:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>',
     items:[
-      {no:6, name:"Idli (Per Piece)", price:25, photo:"https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500&q=75&auto=format&fit=crop"},
-      {no:7, name:"Medu Vada (Per Piece)", price:30, photo:"https://images.unsplash.com/photo-1632104667384-06f58cb7ad44?w=500&q=75&auto=format&fit=crop"},
-      {no:8, name:"Idli Pan Fry (Per Plate)", price:55, photo:"https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&q=75&auto=format&fit=crop"},
-      {no:9, name:"Vegetable Uttappam (Per Plate)", price:55, photo:"https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=500&q=75&auto=format&fit=crop"},
-      {no:10, name:"Vegetable Upma (Per Plate)", price:55, photo:"https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?w=500&q=75&auto=format&fit=crop"},
-      {no:11, name:"Dahi Vada (Per Plate)", price:60, photo:"https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500&q=75&auto=format&fit=crop"},
+      {no:6, name:"Idli (Per Piece)", price:25, photo:"https://images.pexels.com/photos/36854501/pexels-photo-36854501.jpeg?auto=compress&cs=tinysrgb&w=600"},
+      {no:7, name:"Medu Vada (Per Piece)", price:30, photo:"https://images.pexels.com/photos/38201889/pexels-photo-38201889.png?auto=compress&cs=tinysrgb&w=600"},
+      {no:8, name:"Idli Pan Fry (Per Plate)", price:55, photo:"https://images.pexels.com/photos/17308207/pexels-photo-17308207.png?auto=compress&cs=tinysrgb&w=600"},
+      {no:9, name:"Vegetable Uttappam (Per Plate)", price:55, photo:"https://images.pexels.com/photos/20422130/pexels-photo-20422130.jpeg?auto=compress&cs=tinysrgb&w=600"},
+      {no:10, name:"Vegetable Upma (Per Plate)", price:55, photo:"https://static.vecteezy.com/system/resources/previews/066/277/718/large_2x/a-close-up-of-a-upma-with-a-savory-porridge-made-from-semolina-vegetables-and-spices-served-with-photo.jpg"},
+      {no:11, name:"Dahi Vada (Per Plate)", price:60, photo:"https://images.pexels.com/photos/9213253/pexels-photo-9213253.jpeg?auto=compress&cs=tinysrgb&w=600"},
     ]
   },
   {
     id:"dosa", label:"South Indian Dosa", flyerLabel:"South Indian \u2013 Dosa",
-    photo:"https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=900&q=75&auto=format&fit=crop",
+    photo:"https://images.pexels.com/photos/38201890/pexels-photo-38201890.png?auto=compress&cs=tinysrgb&w=900",
     icon:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 20L12 4l9 16z"/></svg>',
     items:[
-      {no:12, name:"Masala Dosa", price:55, note:"Crispy golden crepe with spiced aloo masala filling", photo:"https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=500&q=75&auto=format&fit=crop"},
-      {no:13, name:"Onion Masala Dosa", price:60, note:"Stuffed with roasted chopped onions and potato masala", photo:"https://images.unsplash.com/photo-1630383249896-424e482df921?w=500&q=75&auto=format&fit=crop"},
-      {no:14, name:"Butter Masala Dosa", price:65, note:"Roasted in pure amul butter with spiced potato filling", photo:"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=500&q=75&auto=format&fit=crop"},
+      {no:12, name:"Masala Dosa", price:55, note:"Crispy golden crepe with spiced aloo masala filling", photo:"https://images.pexels.com/photos/38201890/pexels-photo-38201890.png?auto=compress&cs=tinysrgb&w=600"},
+      {no:13, name:"Onion Masala Dosa", price:60, note:"Stuffed with roasted chopped onions and potato masala", photo:"https://images.pexels.com/photos/20422133/pexels-photo-20422133.jpeg?auto=compress&cs=tinysrgb&w=600"},
+      {no:14, name:"Butter Masala Dosa", price:65, note:"Roasted in pure amul butter with spiced potato filling", photo:"https://images.pexels.com/photos/39104603/pexels-photo-39104603.jpeg?auto=compress&cs=tinysrgb&w=600"},
       {no:15, name:"Onion Butter Masala Dosa", price:70, note:"Butter-roasted with caramelized crunchy onions & potato filling", photo:"https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=500&q=75&auto=format&fit=crop"},
       {no:16, name:"Cheese Butter Masala Dosa", price:75, note:"Loaded with shredded melted cheese, butter & spiced potato filling", photo:"https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?w=500&q=75&auto=format&fit=crop"},
     ]
