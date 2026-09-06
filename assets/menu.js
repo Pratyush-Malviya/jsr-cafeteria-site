@@ -37,11 +37,11 @@ const MENU = [
     photo:"https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=900&q=75&auto=format&fit=crop",
     icon:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 20L12 4l9 16z"/></svg>',
     items:[
-      {no:12, name:"Masala Dosa", price:55, photo:"https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=500&q=75&auto=format&fit=crop"},
-      {no:13, name:"Onion Masala Dosa", price:60, photo:"https://images.unsplash.com/photo-1630383249896-424e482df921?w=500&q=75&auto=format&fit=crop"},
-      {no:14, name:"Butter Masala Dosa", price:65, photo:"https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=500&q=75&auto=format&fit=crop"},
-      {no:15, name:"Onion Butter Masala Dosa", price:70, photo:"https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?w=500&q=75&auto=format&fit=crop"},
-      {no:16, name:"Cheese Butter Masala Dosa", price:75, photo:"https://images.unsplash.com/photo-1645177628172-a94c1f96e6db?w=500&q=75&auto=format&fit=crop"},
+      {no:12, name:"Masala Dosa", price:55, note:"Crispy golden crepe with spiced aloo masala filling", photo:"https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=500&q=75&auto=format&fit=crop"},
+      {no:13, name:"Onion Masala Dosa", price:60, note:"Stuffed with roasted chopped onions and potato masala", photo:"https://images.unsplash.com/photo-1630383249896-424e482df921?w=500&q=75&auto=format&fit=crop"},
+      {no:14, name:"Butter Masala Dosa", price:65, note:"Roasted in pure amul butter with spiced potato filling", photo:"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=500&q=75&auto=format&fit=crop"},
+      {no:15, name:"Onion Butter Masala Dosa", price:70, note:"Butter-roasted with caramelized crunchy onions & potato filling", photo:"https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=500&q=75&auto=format&fit=crop"},
+      {no:16, name:"Cheese Butter Masala Dosa", price:75, note:"Loaded with shredded melted cheese, butter & spiced potato filling", photo:"https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?w=500&q=75&auto=format&fit=crop"},
     ]
   },
   {
@@ -134,6 +134,7 @@ MENU.forEach((cat, idx) => {
         <div class="item-info">
           <div class="num">${String(item.no).padStart(2,'0')}</div>
           <div class="item-name">${item.name}</div>
+          ${item.note ? `<div class="item-note">${item.note}</div>` : ''}
           <div class="item-price">&#8377;${item.price}</div>
         </div>
       </div>

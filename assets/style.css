@@ -556,7 +556,8 @@
 
   .item-info .num{font-size:11px; color:var(--sage-deep); font-weight:700; letter-spacing:0.04em;}
   .item-info .item-name{font-family:'Fraunces',serif; font-size:16px; font-weight:600; margin-top:1px; line-height:1.25;}
-  .item-info .item-price{font-size:14px; color:var(--brown); font-weight:600; margin-top:5px;}
+  .item-info .item-note{font-size:12px; color:var(--ink-soft); margin-top:2px; line-height:1.35; font-style:italic;}
+  .item-info .item-price{font-size:14px; color:var(--brown); font-weight:600; margin-top:4px;}
 
   .item-add{flex:none;}
   .add-btn{
