@@ -534,11 +534,12 @@
 
   .item-left{display:flex; align-items:center; gap:14px; min-width:0;}
   .item-thumb{
-    width:58px; height:58px; flex:none;
-    border-radius:14px;
+    width:68px; height:68px; flex:none;
+    border-radius:15px;
     overflow:hidden;
     background:var(--paper);
     position:relative;
+    box-shadow:0 3px 8px rgba(60,50,30,0.10);
   }
   .item-thumb img{
     width:100%; height:100%; object-fit:cover;
@@ -859,11 +860,22 @@
     .cat-nav{top:62px; padding:10px 0; margin-bottom:28px;}
     .cat-chip{padding:7px 14px; font-size:12.5px;}
     .cat-block{margin-bottom:44px;}
-    .item-grid{grid-template-columns:1fr; gap:12px;}
-    .item-card{padding:12px 14px;}
-    .item-thumb{width:50px; height:50px; border-radius:12px;}
-    .item-info .item-name{font-size:15px;}
-    .item-info .item-price{font-size:13.5px;}
+    .item-grid{grid-template-columns:1fr; gap:14px;}
+    .item-card{
+      padding:12px 14px;
+      border-radius:18px;
+      box-shadow:0 2px 8px rgba(60,50,30,0.05);
+    }
+    .item-left{gap:14px;}
+    .item-thumb{
+      width:68px; height:68px;
+      border-radius:14px;
+      box-shadow:0 3px 8px rgba(60,50,30,0.12);
+    }
+    .item-info .num{font-size:10.5px;}
+    .item-info .item-name{font-size:15.5px; line-height:1.25;}
+    .item-info .item-price{font-size:14px; margin-top:3px;}
+    .add-btn{width:36px; height:36px; font-size:18px;}
     .drawer{width:100%; max-width:100%;}
     .drawer-body{padding:16px;}
     .drawer-foot{padding:16px 16px 20px;}

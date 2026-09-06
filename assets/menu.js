@@ -2,34 +2,34 @@
 const MENU = [
   {
     id:"hot", label:"Beverages", flyerLabel:"Beverages \u2013 Hot",
-    photo:"https://images.unsplash.com/photo-1619581073186-5b4ae1b0caad?w=900&q=75&auto=format&fit=crop",
+    photo:"https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=900&q=75&auto=format&fit=crop",
     icon:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 8h14v6a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V8z"/><path d="M17 9h1.5a2.5 2.5 0 0 1 0 5H17"/><path d="M7 2c0 1-1 1-1 2s1 1 1 2M11 2c0 1-1 1-1 2s1 1 1 2"/></svg>',
     items:[
-      {no:1, name:"Chai", price:15, photo:"https://images.unsplash.com/photo-1619581073186-5b4ae1b0caad?w=400&q=70&auto=format&fit=crop"},
-      {no:2, name:"Hot Milk Coffee", price:25, photo:"https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=400&q=70&auto=format&fit=crop"},
-      {no:3, name:"Black Coffee with Honey", price:20, photo:"https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?w=400&q=70&auto=format&fit=crop"},
+      {no:1, name:"Chai", price:15, photo:"https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=500&q=75&auto=format&fit=crop"},
+      {no:2, name:"Hot Milk Coffee", price:25, photo:"https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=500&q=75&auto=format&fit=crop"},
+      {no:3, name:"Black Coffee with Honey", price:20, photo:"https://images.unsplash.com/photo-1517256064527-09c73fc73e38?w=500&q=75&auto=format&fit=crop"},
     ]
   },
   {
     id:"combos", label:"Combos", flyerLabel:"Combos",
-    photo:"https://images.unsplash.com/photo-1562919479-c4f4d3e7f0ce?w=900&q=75&auto=format&fit=crop",
+    photo:"https://images.unsplash.com/photo-1509440159596-0249088772ff?w=900&q=75&auto=format&fit=crop",
     icon:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 10a8 5 0 0 1 16 0z"/><path d="M3 10h18"/><path d="M4 13h16"/><path d="M5 13c0 3 3 5 7 5s7-2 7-5"/></svg>',
     items:[
-      {no:4, name:"Small Bun Makkhan + Chai", price:45, note:"Bun makkhan served with regular chai", photo:"https://images.unsplash.com/photo-1562919479-c4f4d3e7f0ce?w=400&q=70&auto=format&fit=crop"},
-      {no:5, name:"Big Bun Makkhan + Chai", price:65, note:"Bun makkhan served with regular chai", photo:"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=400&q=70&auto=format&fit=crop"},
+      {no:4, name:"Small Bun Makkhan + Chai", price:45, note:"Bun makkhan served with regular chai", photo:"https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500&q=75&auto=format&fit=crop"},
+      {no:5, name:"Big Bun Makkhan + Chai", price:65, note:"Bun makkhan served with regular chai", photo:"https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=500&q=75&auto=format&fit=crop"},
     ]
   },
   {
     id:"snacks", label:"South Indian Snacks", flyerLabel:"South Indian \u2013 Snacks",
-    photo:"https://images.unsplash.com/photo-1741376509047-66dae5df90f9?w=900&q=75&auto=format&fit=crop",
+    photo:"https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=900&q=75&auto=format&fit=crop",
     icon:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>',
     items:[
-      {no:6, name:"Idli (Per Piece)", price:25, photo:"https://images.unsplash.com/photo-1741376509047-66dae5df90f9?w=400&q=70&auto=format&fit=crop"},
-      {no:7, name:"Medu Vada (Per Piece)", price:30, photo:"https://images.unsplash.com/photo-1632104667384-06f58cb7ad44?w=400&q=70&auto=format&fit=crop"},
-      {no:8, name:"Idli Pan Fry (Per Plate)", price:55, photo:"https://images.unsplash.com/photo-1741376509166-cbd74b608f5a?w=400&q=70&auto=format&fit=crop"},
-      {no:9, name:"Vegetable Uttappam (Per Plate)", price:55, photo:"https://images.unsplash.com/photo-1668236499396-a62d2d1cb0cf?w=400&q=70&auto=format&fit=crop"},
-      {no:10, name:"Vegetable Upma (Per Plate)", price:55, photo:"https://images.unsplash.com/photo-1741376509253-221ac18fac0f?w=400&q=70&auto=format&fit=crop"},
-      {no:11, name:"Dahi Vada (Per Plate)", price:60, photo:"https://images.unsplash.com/photo-1741376509187-0b683c764294?w=400&q=70&auto=format&fit=crop"},
+      {no:6, name:"Idli (Per Piece)", price:25, photo:"https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500&q=75&auto=format&fit=crop"},
+      {no:7, name:"Medu Vada (Per Piece)", price:30, photo:"https://images.unsplash.com/photo-1632104667384-06f58cb7ad44?w=500&q=75&auto=format&fit=crop"},
+      {no:8, name:"Idli Pan Fry (Per Plate)", price:55, photo:"https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&q=75&auto=format&fit=crop"},
+      {no:9, name:"Vegetable Uttappam (Per Plate)", price:55, photo:"https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=500&q=75&auto=format&fit=crop"},
+      {no:10, name:"Vegetable Upma (Per Plate)", price:55, photo:"https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?w=500&q=75&auto=format&fit=crop"},
+      {no:11, name:"Dahi Vada (Per Plate)", price:60, photo:"https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500&q=75&auto=format&fit=crop"},
     ]
   },
   {
@@ -37,11 +37,11 @@ const MENU = [
     photo:"https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=900&q=75&auto=format&fit=crop",
     icon:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 20L12 4l9 16z"/></svg>',
     items:[
-      {no:12, name:"Masala Dosa", price:55, photo:"https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=400&q=70&auto=format&fit=crop"},
-      {no:13, name:"Onion Masala Dosa", price:60, photo:"https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=400&q=70&auto=format&fit=crop"},
-      {no:14, name:"Butter Masala Dosa", price:65, photo:"https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=400&q=70&auto=format&fit=crop"},
-      {no:15, name:"Onion Butter Masala Dosa", price:70, photo:"https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=400&q=70&auto=format&fit=crop"},
-      {no:16, name:"Cheese Butter Masala Dosa", price:75, photo:"https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=400&q=70&auto=format&fit=crop"},
+      {no:12, name:"Masala Dosa", price:55, photo:"https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=500&q=75&auto=format&fit=crop"},
+      {no:13, name:"Onion Masala Dosa", price:60, photo:"https://images.unsplash.com/photo-1630383249896-424e482df921?w=500&q=75&auto=format&fit=crop"},
+      {no:14, name:"Butter Masala Dosa", price:65, photo:"https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=500&q=75&auto=format&fit=crop"},
+      {no:15, name:"Onion Butter Masala Dosa", price:70, photo:"https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?w=500&q=75&auto=format&fit=crop"},
+      {no:16, name:"Cheese Butter Masala Dosa", price:75, photo:"https://images.unsplash.com/photo-1645177628172-a94c1f96e6db?w=500&q=75&auto=format&fit=crop"},
     ]
   },
   {
@@ -49,20 +49,20 @@ const MENU = [
     photo:"https://images.unsplash.com/photo-1528736235302-52922df5c122?w=900&q=75&auto=format&fit=crop",
     icon:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="16" rx="1"/><path d="M3 4l18 16M21 4L3 20"/></svg>',
     items:[
-      {no:17, name:"Grilled Bread Butter", price:20, photo:"https://images.unsplash.com/photo-1618650180691-e53a882fb3c0?w=400&q=70&auto=format&fit=crop"},
-      {no:18, name:"Cheese Grilled Bread Butter", price:30, photo:"https://images.unsplash.com/photo-1528736235302-52922df5c122?w=400&q=70&auto=format&fit=crop"},
-      {no:19, name:"Grilled Veggies Sandwich", price:55, photo:"https://images.unsplash.com/photo-1709689156424-16fe0e05b47b?w=400&q=70&auto=format&fit=crop"},
-      {no:20, name:"Grilled Cheese Sandwich", price:65, photo:"https://images.unsplash.com/photo-1647505794572-0a6d945d664d?w=400&q=70&auto=format&fit=crop"},
-      {no:21, name:"Grilled Cheese Corn Sandwich", price:70, photo:"https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=400&q=70&auto=format&fit=crop"},
+      {no:17, name:"Grilled Bread Butter", price:20, photo:"https://images.unsplash.com/photo-1584776296944-ab6fb57b0bdd?w=500&q=75&auto=format&fit=crop"},
+      {no:18, name:"Cheese Grilled Bread Butter", price:30, photo:"https://images.unsplash.com/photo-1528736235302-52922df5c122?w=500&q=75&auto=format&fit=crop"},
+      {no:19, name:"Grilled Veggies Sandwich", price:55, photo:"https://images.unsplash.com/photo-1550547660-d9450f859349?w=500&q=75&auto=format&fit=crop"},
+      {no:20, name:"Grilled Cheese Sandwich", price:65, photo:"https://images.unsplash.com/photo-1628191010210-a59de33e5941?w=500&q=75&auto=format&fit=crop"},
+      {no:21, name:"Grilled Cheese Corn Sandwich", price:70, photo:"https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=500&q=75&auto=format&fit=crop"},
     ]
   },
   {
     id:"cold", label:"Cold Coffees", flyerLabel:"Cold Coffees",
-    photo:"https://images.unsplash.com/photo-1553741755-53af778aef6a?w=900&q=75&auto=format&fit=crop",
+    photo:"https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=900&q=75&auto=format&fit=crop",
     icon:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 8h12l-1.2 11a2 2 0 0 1-2 1.8h-5.6a2 2 0 0 1-2-1.8L6 8z"/><path d="M4 8h16M9 8V5a3 3 0 0 1 6 0v3"/></svg>',
     items:[
-      {no:22, name:"Cold Coffee Medium", price:40, photo:"https://images.unsplash.com/photo-1553741755-53af778aef6a?w=400&q=70&auto=format&fit=crop"},
-      {no:23, name:"Cold Coffee Large", price:60, photo:"https://images.unsplash.com/photo-1559496417-e7f25cb247f3?w=400&q=70&auto=format&fit=crop"},
+      {no:22, name:"Cold Coffee Medium", price:40, photo:"https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=500&q=75&auto=format&fit=crop"},
+      {no:23, name:"Cold Coffee Large", price:60, photo:"https://images.unsplash.com/photo-1559496417-e7f25cb247f3?w=500&q=75&auto=format&fit=crop"},
     ]
   },
 ];
