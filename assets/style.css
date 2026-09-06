@@ -65,12 +65,31 @@
   }
   .header-inner{
     display:flex; align-items:center; justify-content:space-between;
-    padding:14px 24px;
+    padding:12px 24px;
+    gap:16px;
   }
-  .brand{display:flex; align-items:center; gap:12px; text-decoration:none;}
-  .brand img{width:48px; height:48px; border-radius:50%; box-shadow:0 2px 6px rgba(60,50,30,0.18);}
-  .brand-text .name{font-family:'Fraunces',serif; font-size:22px; font-weight:700; line-height:1; color:var(--ink);}
-  .brand-text .tag{font-size:11px; letter-spacing:0.12em; color:var(--ink-soft); text-transform:uppercase; margin-top:3px;}
+  .brand{
+    display:flex; align-items:center; gap:12px; text-decoration:none;
+    min-width:0;
+  }
+  .brand img{
+    width:46px; height:46px; border-radius:50%;
+    box-shadow:0 2px 6px rgba(60,50,30,0.18);
+    flex-shrink:0;
+    object-fit:cover;
+  }
+  .brand-text{
+    display:flex; flex-direction:column; justify-content:center;
+    min-width:0;
+  }
+  .brand-text .name{
+    font-family:'Fraunces',serif; font-size:21px; font-weight:700; line-height:1.1;
+    color:var(--ink); white-space:nowrap;
+  }
+  .brand-text .tag{
+    font-size:11px; letter-spacing:0.08em; color:var(--ink-soft); text-transform:uppercase;
+    margin-top:2px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+  }
 
   .main-nav{
     display:flex; align-items:center; gap:6px;
@@ -840,12 +859,44 @@
     .cat-nav{top:68px;}
   }
   @media (max-width:580px){
-    .header-inner{padding:10px 14px;}
-    .brand img{width:40px; height:40px;}
-    .brand-text .name{font-size:18px;}
-    .brand-text .tag{font-size:10px;}
-    .cart-btn{padding:8px 14px; font-size:13px;}
-    .cart-btn span:not(.cart-count){display:none;} /* hide 'Cart' text on small mobile, keep icon + badge */
+    .header-inner{
+      padding:10px 16px;
+      gap:10px;
+    }
+    .brand{
+      gap:10px;
+    }
+    .brand img{
+      width:38px; height:38px;
+      border-radius:50%;
+      flex-shrink:0;
+    }
+    .brand-text .name{
+      font-size:18px;
+      line-height:1;
+      letter-spacing:-0.01em;
+    }
+    .brand-text .tag{
+      display:none; /* Prevents crowding the navbar header on mobile */
+    }
+    .header-right{
+      gap:8px;
+    }
+    .cart-btn{
+      padding:8px 12px;
+      gap:6px;
+      font-size:13px;
+    }
+    .cart-btn span:not(.cart-count){
+      display:none; /* Keep compact: only cart icon + badge */
+    }
+    .nav-toggle{
+      width:38px; height:38px;
+      border-radius:10px;
+    }
+    .nav-toggle svg{
+      width:20px; height:20px;
+    }
     .wrap{padding:0 16px;}
     .hero{padding:30px 16px 36px;}
     .hero h1{font-size:32px; max-width:100%;}

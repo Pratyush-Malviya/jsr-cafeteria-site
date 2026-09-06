@@ -49,11 +49,11 @@ const MENU = [
     photo:"https://images.unsplash.com/photo-1528736235302-52922df5c122?w=900&q=75&auto=format&fit=crop",
     icon:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="16" rx="1"/><path d="M3 4l18 16M21 4L3 20"/></svg>',
     items:[
-      {no:17, name:"Grilled Bread Butter", price:20, photo:"https://images.unsplash.com/photo-1584776296944-ab6fb57b0bdd?w=500&q=75&auto=format&fit=crop"},
-      {no:18, name:"Cheese Grilled Bread Butter", price:30, photo:"https://images.unsplash.com/photo-1528736235302-52922df5c122?w=500&q=75&auto=format&fit=crop"},
-      {no:19, name:"Grilled Veggies Sandwich", price:55, photo:"https://images.unsplash.com/photo-1550547660-d9450f859349?w=500&q=75&auto=format&fit=crop"},
-      {no:20, name:"Grilled Cheese Sandwich", price:65, photo:"https://images.unsplash.com/photo-1628191010210-a59de33e5941?w=500&q=75&auto=format&fit=crop"},
-      {no:21, name:"Grilled Cheese Corn Sandwich", price:70, photo:"https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=500&q=75&auto=format&fit=crop"},
+      {no:17, name:"Grilled Bread Butter", price:20, note:"Golden toasted crust bread with melted butter", photo:"https://images.unsplash.com/photo-1525351484163-7529414344d8?w=500&q=75&auto=format&fit=crop"},
+      {no:18, name:"Cheese Grilled Bread Butter", price:30, note:"Toasted crust bread with warm melted cheese & butter", photo:"https://images.unsplash.com/photo-1528736235302-52922df5c122?w=500&q=75&auto=format&fit=crop"},
+      {no:19, name:"Grilled Veggies Sandwich", price:55, note:"Toasted sandwich stuffed with cucumber, tomato & fresh herbs", photo:"https://images.unsplash.com/photo-1539252554453-80ab65ce3586?w=500&q=75&auto=format&fit=crop"},
+      {no:20, name:"Grilled Cheese Sandwich", price:65, note:"Crispy grilled bread packed with melted cheese slices", photo:"https://images.unsplash.com/photo-1528736235302-52922df5c122?w=500&q=75&auto=format&fit=crop"},
+      {no:21, name:"Grilled Cheese Corn Sandwich", price:70, note:"Golden sweet corn and melted cheddar cheese pressed to order", photo:"https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=500&q=75&auto=format&fit=crop"},
     ]
   },
   {
